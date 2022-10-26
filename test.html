@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hello World</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--add required stylesheets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--leaflet css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!--add favicon for the web page-->
+
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="storymap.2.5.css">
+
+    <!--add required libraries-->
+    <!--jquery and Popper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!--boostrap-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--leaflet.ajax for asynchronously adding geojson data-->
+
+    <!--story map plugin-->
+    <script src="storymap.2.5.js"></script>
+
+    <script src="test.js"></script>
+</head>
+
+<body>
+    <div id="storymap" class="container-fluid" >
+        <div class="row">
+            <div class="col-sm-6 col-md-8 storymap-map"></div>
+            <div class="col-sm-6 col-md-4 storymap-story"></div>
+        </div>
+    </div>
+
+    <section data-scene="scene1">
+        <section data-scene="map_intro" class="" style="height: 334.77px;">
+            <h3>Standing Rock</h3>
+            <p> Located in North Dakota (ND) and South Dakota (SD), The Standing Rock Indian Reservation is occupied by ethnic Hunkpapa Lakota, Sihasapa Lakota and Yanktonai Dakota, it includes Sioux County, ND, Corson County, SD, plus slivers of northern Dewey and Ziebach, SD, along their northern county lines at Highway 20. Standing Rock ranks the sixth largest Native American reservation in land area of U.S.
+            </p>
+            <div class="legend legend-custom">
+                <i style="background: orange"></i><p>Reservation Land</p><br>
+            </div>
+            <div class="embeded-photo img-responsive"></div>
+            <i class="zoomIn infinite glyphicon glyphicon-menu-down arrow-down animated" style="left: 50%;"></i>
+        </section>
+    </section>    
+    <section data-scene="scene2">
+        <section data-scene="map_pipeline">
+            <h3>The Proposed Pipeline</h3>
+            <!--<p>The pipeline is designed to transport as many as 570,000 barrels of crude oil daily from North Dakota to Illinois. The pipeline would be a key conduit connecting oil wells in the state's Bakken Shale, where the development of fracking has opened billions of gallons of new oil to recovery, to other valuable consumer markets, including the Gulf Coast, Midwest and East Coast. The nearly $4 billion project was first proposed in 2014 with an anticipated completion of this year.</p>-->
+            <p>The pipeline is to be built by Texas-based Energy Transfer Partners and is designed to transport as many
+
+                as 570,000 barrels of crude oil daily from North Dakota to Illinois. This Pipeline has drawn parallels to
+
+                the Keystone XL pipeline. Opposition to that project, which Obama eventually rejected, became a litmus
+
+                test in the eyes of some activists for public officials to show their commitment to addressing
+
+                environmental issues. But at the same time significant differences remain. Perhaps most importantly,
+
+                Keystone crossed into Canada, making it an international issue that gave authority over its final approval
+
+                to the State Department. The federal government has the authority over the Dakota Access Pipeline
+
+                because it crosses interstate waterways. Stopping the project would be challenging for any administration.<br><br>
+
+                The protest was caused by issues related to the protection of water, land, and religious/spiritual sites
+
+                sacred to indigenous peoples of the Americas. Despite the U.S. Army Corps of Engineers claim that the
+
+                pipeline will not cross the Standing Rock area, people still worry that a leak from the pipeline could
+
+                contaminate local water sources and damage local agriculture. We must ask: which is more important,
+
+                water and food security, or energy security?
+            </p>
+
+            <div class="legend legend-custom">
+                <i style="background: #ABD1E8;"></i><p>Aquifer</p><br>
+                <i style="background: #006080; opacity: 0.5"></i><p>River</p><br>
+                <i style="background: orange"></i><p>Reservation Land</p><br>
+                <i style="background: #B51E1E;"></i><p>Pipeline</p><br>
+            </div>
+            <div class="embeded-photo img-responsive"></div>
+        </section>
+    </section> 
+    <section data-scene="scene3">
+        <h2>scene 3</h2>
+    </section> 
+</body>
+</html>
