@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Georgia, sans-serif');
+
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+.main-header{
+    width: 100%;
+    background-color: transparent;
+}
+
+.main-header .nav-bar{
+    width: 90%;
+    height: 80px;
+    line-height: 80px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+}
+
+.main-header .nav-bar .logo{
+    z-index: 2;
+}
+
+.main-header .nav-bar .logo a{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main-header .nav-bar .menu{
+    z-index: 2;
+}
+
+.main-header .nav-bar .menu ul li{
+    margin-right: 30px;
+}
+
+.main-header .nav-bar .menu ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    opacity: 0.8;
+    color: #000;
+}
+
+.main-header .nav-bar .menu ul li a.active{
+    opacity: 1;
+    background-color: #000;
+    color: #fff;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', sans-serif;
+    height: 1000px;
+    background-color: #1a161d;
+}
+
+.banner
+{
+    width: 100%;
+    height: 86%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* video styling I think*/
+
+.banner video
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.banner .content
+{
+    position: relative;
+    z-index: 1;
+    color: #f1f1f1;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner .content h1
+{
+    margin: 0;
+    padding: 0;
+    font-size: 3.5em;
+    text-transform: uppercase;
+}
+
+.banner .content h3
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.content {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  #banner2 {
+    background: rgb(151, 46, 46);
+    text-align: center;
+    padding: 4.5em 0 4.5em 0;
+    margin-bottom: 0;
+}
+
+    #banner2 header > p {
+        margin-bottom: 0;
+    }
+    * {box-sizing:border-box}
+
+.text-block {
+  position: relative;
+  top: 50%;
+  width: auto;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0.8;
+  user-select: none;
+}
+
+    /* bg_change_scroll TEST */
+    .bg-image {
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bg-text {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        font-size: 80px;
+        border: 10px solid #f1f1f1;
+        position: fixed; /* Stay fixed */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+    }
+
+/* CSS for Slideshow container */
+
+* {box-sizing:border-box}
+
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button,
+	.button {
+		position: relative;
+		display: inline-block;
+		background: #ffffff;
+		color: #000;
+		text-align: center;
+		border-radius: 0.5em;
+		text-decoration: none;
+		padding: 0.65em 3em 0.65em 3em;
+		border: 0;
+		cursor: pointer;
+		outline: 0;
+		font-weight: 300;
+		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button:hover,
+		.button:hover {
+			color: #fff;
+			background: #000000;
+		}
+
+		input[type="button"].alt,
+		input[type="submit"].alt,
+		input[type="reset"].alt,
+		button.alt,
+		.button.alt {
+			background: #2B252C;
+		}
+
+			input[type="button"].alt:hover,
+			input[type="submit"].alt:hover,
+			input[type="reset"].alt:hover,
+			button.alt:hover,
+			.button.alt:hover {
+				background: #3B353C;
+			}
+
+    /* Hide the images by default */
+    .mySlides {
+      display:none;
+      text-align: center;
+      margin-top: -35px;
+    }
+    
+        /* Next & previous buttons */
+            .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            }
+            
+            /* Position the "next button" to the right */
+            .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+            }
+            
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+            }
+        
+        /* Caption text */
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+        
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  .text-block {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px solid #9c9c9c79;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 1000px;
+  padding: 20px;
+  text-align: center;
+  text-justify:distribute-all-lines;
+
+  }
+
+.video-opacity {
+    opacity: 5;
+}
